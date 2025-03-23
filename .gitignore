@@ -137,13 +137,12 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-config/env/.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+#.venv
+#env/
+#venv/
+#ENV/
+#env.bak/
+#venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -415,3 +414,4 @@ fabric.properties
 
 
 logs/
+/config/env/.env
